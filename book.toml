@@ -1,0 +1,6 @@
+[book]
+authors = ["Shannon Stein", "Daniel M. Ingram", "Kaio Shimanski"]
+language = "pt-br"
+multilingual = false
+src = "src"
+title = "A Kasina do Fogo"

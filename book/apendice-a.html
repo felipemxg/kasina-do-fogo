@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html lang="pt-br" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Apêndice A: Glossário de Termos Técnicos - A Kasina do Fogo</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        
+        <link rel="icon" href="favicon.svg">
+        
+        
+        <link rel="shortcut icon" href="favicon.png">
+        
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="os-autores.html"><strong aria-hidden="true">1.</strong> Os Autores</a></li><li class="chapter-item expanded "><a href="introducao.html"><strong aria-hidden="true">2.</strong> Introdução</a></li><li class="chapter-item expanded "><a href="prologo.html"><strong aria-hidden="true">3.</strong> Prólogo</a></li><li class="chapter-item expanded "><a href="dia-um.html"><strong aria-hidden="true">4.</strong> Dia Um</a></li><li class="chapter-item expanded "><a href="dia-dois.html"><strong aria-hidden="true">5.</strong> Dia Dois</a></li><li class="chapter-item expanded "><a href="dia-tres.html"><strong aria-hidden="true">6.</strong> Dia Três</a></li><li class="chapter-item expanded "><a href="dia-quatro.html"><strong aria-hidden="true">7.</strong> Dia Quatro</a></li><li class="chapter-item expanded "><a href="dia-cinco.html"><strong aria-hidden="true">8.</strong> Dia Cinco</a></li><li class="chapter-item expanded "><a href="dia-seis.html"><strong aria-hidden="true">9.</strong> Dia Seis</a></li><li class="chapter-item expanded "><a href="dia-sete.html"><strong aria-hidden="true">10.</strong> Dia Sete</a></li><li class="chapter-item expanded "><a href="dia-oito.html"><strong aria-hidden="true">11.</strong> Dia Oito</a></li><li class="chapter-item expanded "><a href="dia-nove.html"><strong aria-hidden="true">12.</strong> Dia Nove</a></li><li class="chapter-item expanded "><a href="dia-dez.html"><strong aria-hidden="true">13.</strong> Dia Dez</a></li><li class="chapter-item expanded "><a href="dia-onze.html"><strong aria-hidden="true">14.</strong> Dia Onze</a></li><li class="chapter-item expanded "><a href="dia-doze.html"><strong aria-hidden="true">15.</strong> Dia Doze</a></li><li class="chapter-item expanded "><a href="dia-treze.html"><strong aria-hidden="true">16.</strong> Dia Treze</a></li><li class="chapter-item expanded "><a href="dia-quatorze.html"><strong aria-hidden="true">17.</strong> Dia Quatorze</a></li><li class="chapter-item expanded "><a href="dia-quinze.html"><strong aria-hidden="true">18.</strong> Dia Quinze</a></li><li class="chapter-item expanded "><a href="dia-dezesseis.html"><strong aria-hidden="true">19.</strong> Dia Dezesseis</a></li><li class="chapter-item expanded "><a href="dia-dezessete.html"><strong aria-hidden="true">20.</strong> Dia Dezessete</a></li><li class="chapter-item expanded "><a href="dia-dezoito.html"><strong aria-hidden="true">21.</strong> Dia Dezoite</a></li><li class="chapter-item expanded "><a href="dia-vinte.html"><strong aria-hidden="true">22.</strong> Dia Vinte</a></li><li class="chapter-item expanded "><a href="dia-vinte-e-um.html"><strong aria-hidden="true">23.</strong> Dia Vinte e Um</a></li><li class="chapter-item expanded "><a href="dia-vinte-e-dois.html"><strong aria-hidden="true">24.</strong> Dia Vinte e Dois</a></li><li class="chapter-item expanded "><a href="dia-vinte-e-tres.html"><strong aria-hidden="true">25.</strong> Dia Vinte e Três</a></li><li class="chapter-item expanded "><a href="dia-vinte-e-quatro.html"><strong aria-hidden="true">26.</strong> Dia Vinte e Quatro</a></li><li class="chapter-item expanded "><a href="dia-vinte-e-cinco.html"><strong aria-hidden="true">27.</strong> Dia Vinte e Cinco</a></li><li class="chapter-item expanded "><a href="duas-semanas-apos-o-retiro.html"><strong aria-hidden="true">28.</strong> Duas Semanas Após o Retiro</a></li><li class="chapter-item expanded "><a href="conclusao.html"><strong aria-hidden="true">29.</strong> Conclusão</a></li><li class="chapter-item expanded "><a href="apendice-a.html" class="active"><strong aria-hidden="true">30.</strong> Apêndice A: Glossário de Termos Técnicos</a></li><li class="chapter-item expanded "><a href="apendice-b.html"><strong aria-hidden="true">31.</strong> Apêndice B: Nirodha Samapatti</a></li><li class="chapter-item expanded "><a href="apendice-c.html"><strong aria-hidden="true">32.</strong> Apêndice C: Sugestões de Velas</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">A Kasina do Fogo</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#apêndice-a-glossário-de-termos-técnicos" id="apêndice-a-glossário-de-termos-técnicos">Apêndice A: Glossário de Termos Técnicos</a></h1>
+<h4><a class="header" href="#abhidhamma" id="abhidhamma">Abhidhamma</a></h4>
+<p>Uma parte do Cânon Pali que envolve a análise dos elementos da existência, estados de espírito e muitas outras teorias analíticas da meditação.</p>
+<h4><a class="header" href="#anagami" id="anagami">Anagami</a></h4>
+<p>De acordo com o Budismo Theravada, existem quatro estágios de despertar que conduzem à iluminação completa. Alguém que completou o terceiro desses estágios é conhecido como um <em>anagami</em>.</p>
+<h4><a class="header" href="#arahat" id="arahat">Arahat</a></h4>
+<p>Aquele que progrediu através de todos os quatro estágios do despertar e, portanto, é entendido como tendo uma visão penetrante da natureza da existência ao mais alto nível de compreensão experiencial possível para um ser vivo. Outro termo comumente usado para essa realização é 'despertar completo'.</p>
+<h4><a class="header" href="#noite-escura" id="noite-escura">Noite escura</a></h4>
+<p>Na linguagem de <em>vipassana</em>, este termo se refere ao insight muitas vezes físico e mentalmente desconfortável, mas necessários conhecimentos que uma pessoa experimenta como parte da visão clara através da ilusão do eu. Emoções leves à fortes de ansiedade, depressão, desesperança e uma sensação de falta de sentido podem surgir durante a noite escura, uma vez que crenças antigas em um eu permanente e separado devem ser adequadamente perfuradas a cada caminho do despertar. Embora nem sempre experimentado como estados delimitados separadamente, os clássicos insights do conhecimento da noite escura conhece  ou <em>ñanas</em> são os seguintes: dissolução, medo, miséria, desgosto, desejo de libertação e re-observação. Praticantes firmes de <em>vipassana</em> oferecem as melhores chances para uma eventual descoberta além da noite escura para o próximo conhecimento do insight, conhecido como 'equanimidade' (veja abaixo).</p>
+<h4><a class="header" href="#dharmakaya" id="dharmakaya">Dharmakaya</a></h4>
+<p>Um dos três <em>kayas</em>, que em sânscrito se refere a 'aquilo que é acumulado' (ver <em>sambhogakaya</em>, abaixo, para uma descrição completa de todos os três <em>kayas</em>).</p>
+<h4><a class="header" href="#dissolução" id="dissolução">Dissolução</a></h4>
+<p>Um estágio padrão da prática durante na qual a meditação pode ser vaga, espaçosa, com baixa energia, pouca concentração, dificuldade em traduzir intenções em ações e uma sensação de que as coisas estão desaparecendo ou caindo.</p>
+<h4><a class="header" href="#dukkha-ñanas" id="dukkha-ñanas">Dukkha ñanas</a></h4>
+<p>Estes são sinônimos dos conhecimentos do insight da noite escura. Veja 'noite escura' acima.</p>
+<h4><a class="header" href="#dzogchen" id="dzogchen">Dzogchen</a></h4>
+<p>Literalmente 'Grande Perfeição', uma tradição de prática tibetana que envolve reconhecer e descansar no estado da mente desperta natural.</p>
+<h4><a class="header" href="#entradas" id="entradas">Entradas</a></h4>
+<p>Um termo alternativo para  as 'três portas' (veja abaixo).</p>
+<h4><a class="header" href="#Ñana-equanimidade" id="Ñana-equanimidade">Ñana Equanimidade</a></h4>
+<p>O décimo primeiro estágio padrão no desenvolvimento do insight. Geralmente envolve amplitude, facilidade, uma sensação de bem-estar e equanimidade. Segue os estágios da noite escura.</p>
+<h4><a class="header" href="#Ñana-medo" id="Ñana-medo">Ñana Medo</a></h4>
+<p>Um estágio padrão de meditação de insight que segue a dissolução, geralmente envolvendo medo emocional e muitas vezes numerosas sensações assustadoras, incluindo imagens assustadoras.</p>
+<h4><a class="header" href="#cinco-obstáculos" id="cinco-obstáculos">Cinco obstáculos</a></h4>
+<p>Os cinco obstáculos são 'desejo sensual', 'má vontade', 'inquietação / preocupação', 'preguiça / torpor' e 'dúvida'. Esses são estados mentais que podem impedir a meditação.</p>
+<h4><a class="header" href="#reinos-sem-forma" id="reinos-sem-forma">Reinos sem forma</a></h4>
+<p>Concentração budista tradicional ou realizações jhanicas, especificamente 'espaço sem limites', 'consciência sem limites', 'nada' e 'nem percepção, nem ainda não percepção'.</p>
+<h4><a class="header" href="#fruição" id="fruição">Fruição</a></h4>
+<p>Fruição é um termo tradicional encontrado no <em>Abhidhamma</em> e nos comentários. Refere-se ao desaparecimento total de toda realidade sensorial, incluindo espaço, tempo, pontos de referência e tudo mais. É como se alguém editasse os frames do filme 3D metafórico que é esta vida. Não há nada na lacuna, apenas uma descontinuidade.</p>
+<h4><a class="header" href="#porta-da-impermanência" id="porta-da-impermanência">Porta da impermanência</a></h4>
+<p>Uma entrada em <em>nibbana</em> / <em>nirvana</em> / fruição, que tem o tom de sentimento mais neutro das &quot;três portas&quot;, consistindo de estremecimentos breves e distintos enquanto a realidade rapidamente entra e sai da existência, com uma qualidade de 'dat-dat-dat-passou'.</p>
+<h4><a class="header" href="#poderes" id="poderes">Poderes</a></h4>
+<p>Normalmente chamados de <em>siddhis</em> (Sânscrito) ou <em>iddhis</em> (Pali), que se referem a vários 'poderes psíquicos' que são tradicionalmente desenvolvidos na prática budista. Um deles é conhecido como 'olho divino', que permite uma percepção visual incomum.</p>
+<h4><a class="header" href="#Ñana-miséria" id="Ñana-miséria">Ñana Miséria</a></h4>
+<p>O sétimo estágio padrão no desenvolvimento do insight.Geralmente envolve sentimentos de tristeza, perda e miséria.</p>
+<h4><a class="header" href="#Ñanas" id="Ñanas">Ñanas</a></h4>
+<p>Uma série de estágios ou conhecimentos de insight que os meditadores de <em>vipassana</em> experimentam à medida que progridem em direção ao <em>nibbana</em>.</p>
+<h4><a class="header" href="#nimitta" id="nimitta">Nimitta</a></h4>
+<p>O <em>nimitta</em> é tipicamente um disco, esfera ou outra forma branca brilhante (ou de outra cor) criada pela mente que surge devido a forte concentração e torna-se objeto de atenção em algumas práticas de concentração. Também pode ter outras qualidades sensoriais, dependendo do foco específico da prática.</p>
+<h4><a class="header" href="#porta-do-não-eu" id="porta-do-não-eu">Porta do Não-Eu</a></h4>
+<p>Uma entrada para <em>nibbana</em> / <em>nirvana</em> / fruição em que a realidade parece cair em direção ao observador e desaparecer, às vezes com a sensação de uma imagem, rosto ou inteligência &quot;daquele lado&quot; caindo e se fundindo com a percepção ou consciência &quot;deste lado&quot;, ou seja, o sentido do observador.</p>
+<h4><a class="header" href="#experiência-fora-do-corpo-efc" id="experiência-fora-do-corpo-efc">Experiência Fora do Corpo (EFC)</a></h4>
+<p>Também conhecida como 'viagem', 'viagem astral' e outros nomes. Uma experiência hiperlúcida em que parece que saímos do nosso corpo físico e agora estamos viajando em um tipo diferente de corpo.</p>
+<h4><a class="header" href="#re-observação" id="re-observação">Re-observação</a></h4>
+<p>Um estágio de meditação de insight padrão, o mais desafiador e desagradável dos estágios de meditação, ambos perceptualmente e emocionalmente. É o auge do lado escuro do terceiro <em>vipassana jhana</em> e, freqüentemente, um obstáculo difícil para os meditadores.</p>
+<h4><a class="header" href="#fase-de-revisão-de-um-retiro" id="fase-de-revisão-de-um-retiro">Fase de revisão de um retiro</a></h4>
+<p>A fase de um retiro em que a pessoa atingiu um nível de despertar e, a seguir, revisa os benefícios e os estágios desse nível de despertar.</p>
+<h4><a class="header" href="#rigpa" id="rigpa">Rigpa</a></h4>
+<p>Um termo sutil tibetano <em>dzogchen</em> budista que se refere ao nível mais sutil de consciência imaculada e primitiva.</p>
+<h4><a class="header" href="#samatha" id="samatha">Samatha</a></h4>
+<p><em>Samatha</em> é a meditação baseada na concentração (em oposição à 'meditação do insight' ou <em>vipassana</em>), ou seja, meditação projetada para produzir estáveis ​​e agradáveis estados mentais chamados <em>jhanas</em>.</p>
+<h4><a class="header" href="#sambhogakaya" id="sambhogakaya">Sambhogakaya</a></h4>
+<p>Literalmente 'corpo de prazer', um conceito complexo relacionado a vários aspectos de um Buda, vários aspectos ou dimensões planas da realidade desperta e, neste caso, refere-se vagamente às dimensões mágicas incomuns, experiências e percepções discutidas aqui. (O, estudiosos tibetanos, por favor, me perdoe!) Este termo é freqüentemente empregado em comparação com dois conceitos relacionados: <em>nirmanakaya</em>, o ordinário, manifestação material de um ser totalmente desperto, às vezes usado para se referir ao todo do mundo ordinário visto pela perspectiva desperta; e <em>dharmakaya</em>, a mente-sabedoria vazia que tudo permeia de um ser totalmente desperto, às vezes também usado para se referir à natureza essencial do aspecto desperto da manifestação da perspectiva desperta.</p>
+<h4><a class="header" href="#sete-fatores-do-despertar" id="sete-fatores-do-despertar">Sete fatores do despertar</a></h4>
+<p>Os sete fatores do despertar são 'atenção plena', 'investigação', 'energia', 'êxtase', 'tranquilidade', 'concentração' e 'equanimidade' e, quando devidamente cultivados e equilibrados, produzem os estágios de percepção e despertar.</p>
+<h4><a class="header" href="#porta-do-sofrimento" id="porta-do-sofrimento">Porta do sofrimento</a></h4>
+<p>Uma entrada em <em>nibbana</em> / <em>nirvana</em> / fruição que tem um aspecto assustador ou violador no qual a realidade pode parecer como se estivesse sendo arrancada um pouco antes da fruição.</p>
+<h4><a class="header" href="#três-características" id="três-características">Três características</a></h4>
+<p>As três marcas da realidade experiencial, contemplação e compreensão sensorial direta que levam à visão da verdadeira natureza da experiência, a saber, 'impermanência', 'sofrimento' e 'não-eu'.</p>
+<h4><a class="header" href="#três-portas" id="três-portas">Três portas</a></h4>
+<p>Correspondendo às 'três características' (veja acima), um meditador passará por uma delas antes de uma fruição, seja a 'porta da impermanência', a 'porta do sofrimento' ou a 'porta do não-eu'. Veja as entradas separadas para cada um deles.</p>
+<h4><a class="header" href="#ciclos-de-vipassana" id="ciclos-de-vipassana">Ciclos de Vipassana</a></h4>
+<p>Estágios de insight padrão que seguem graus de despertar e ocorrem em um padrão previsível e cíclico, tipicamente chamado de <em>ñanas</em> ou 'conhecimentos'.</p>
+<h4><a class="header" href="#largura-de-atenção" id="largura-de-atenção">Largura de atenção</a></h4>
+<p>Este termo se refere à variabilidade no escopo do foco do meditador. Para se tornar adepto da kasina do fogo, bem como de outras práticas de concentração, deve-se aprender a tomar o foco estreito e centralizado que funciona tão bem nos dois primeiros <em>jhanas</em> e amplia a atenção para se envolver principalmente com a periferia do campo visual a fim de avançar e progredir profundamente através do terceiro e quarto <em>jhanas</em>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="conclusao.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="apendice-b.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="conclusao.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="apendice-b.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
