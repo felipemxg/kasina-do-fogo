@@ -1,3 +1,9 @@
+# Sumário
+
+[A Kasina do Fogo](./a-kasina-do-fogo.md)
+[Créditos](./creditos.md)
+[Dedicatória](./dedicatoria.md)
+
 # Conteúdo
 
 - [Os Autores](./os-autores.md)
